@@ -1,0 +1,528 @@
+/* css */
+/*////////// GENERAL //////////*/
+img {
+border:none;}
+h1{
+color:#000000;
+font-weight:normal;
+font-size:1.5em;
+border-bottom:2px solid #CC0000;
+}
+h2{
+font-size: 1em;}
+h3{
+font-size:0.8em;}
+body {
+margin-top: 0px;
+margin-bottom: 30px;
+background-image:url(../images/background.gif);
+background-repeat:repeat-x;
+}
+.container {
+width: 850px;
+margin: 0 auto;
+margin-top: 20px;
+font-family: Arial,Verdana,sans-serif;
+}
+.main_container {
+width: 100%;
+min-height:400px;
+border: 0px solid #eeeeee;
+}
+/*////////// HEADERS //////////*/
+.header {
+width: 97%;
+height: 100px;
+border: 2px double  #E6E6E6;
+padding:10px;
+background-color:#FFFFFF;
+}
+.header .logos {
+float:right;}
+/*////////// CONTENT //////////*/
+
+#content_double{
+border: 0px solid #eeeeee;
+}
+#content_left{
+float:left;
+width:50%;
+}
+#content_right{
+float:right;
+width:49%;
+}
+
+
+#content_triple{
+border: 0px solid #eeeeee;
+}
+#content_left_triple{
+float:left;
+width:30%;
+border: 0px solid #eeeeee;
+}
+#content_medium_triple{
+float:left;
+width:34%;
+border: 0px solid #eeeeee;
+}
+#content_right_triple{
+float:right;
+width:34%;
+border: 0px solid #eeeeee;
+}
+
+
+#ps_cont_left_title{
+float:left;
+width:29%;
+background-color:#b4b4b4;
+border: 1px solid #eeeeee;
+padding: 2px;
+}
+#ps_cont_right_title{
+float:right;
+width:68%;
+background-color:#b4b4b4;
+border: 1px solid #eeeeee;
+padding: 2px;
+}
+#ps_cont_left{
+float:left;
+width:29%;
+border: 1px solid #eeeeee;
+padding: 2px;
+}
+#ps_cont_right{
+float:right;
+width:68%;
+border: 1px solid #eeeeee;
+padding: 2px;
+}
+
+/*////////// PAVLOS OAF //////////*/
+
+#ps_clear{
+clear:both;}
+#indicator{	
+font-size:12px;
+font-style:italic;
+font-weight:bold;}
+#new_wrapper{
+width:600px;
+/*border: 1px solid #00719D;*/
+padding:5px;
+position: relative;
+font-size:12px;}
+#new_left_h1{
+float:left;
+width:49%;
+text-align:center;
+font-size:14px;	
+font-weight: bold;
+font-style: italic;
+margin-top:10px;}
+#new_right_h1{
+float:right;
+width:49%;
+text-align:center;
+font-size:14px;
+font-weight: bold;
+font-style: italic;
+margin-top:10px;}
+#new_left_h2{
+float:left;
+width:49%;
+text-align:left;
+font-size:14px;	
+font-weight: bold;
+margin-top:10px;}
+#new_right_h2{
+float:right;
+width:49%;
+text-align:left;
+font-size:14px;
+font-weight: bold;
+margin-top:10px;}
+
+#new_left1{
+float:left;
+width:49%;
+text-align:left;
+font-size:12px;	
+margin-top:10px;
+background-color:#f5f5f5;}
+#new_right1{
+float:right;
+width:49%;
+text-align:left;
+font-size:12px;
+margin-top:10px;
+background-color:#f5f5f5;}
+
+#new_left2{
+float:left;
+width:49%;
+text-align:left;
+font-size:12px;	
+margin-top:10px;
+background-color:#e6e6e6;}
+#new_right2{
+float:right;
+width:49%;
+text-align:left;
+font-size:12px;
+margin-top:10px;
+background-color:#e6e6e6;}
+
+#new_left3{
+float:left;
+width:49%;
+text-align:left;
+font-size:12px;	
+margin-top:10px;
+background-color:#dad9d7;}
+#new_right3{
+float:right;
+width:49%;
+text-align:left;
+font-size:12px;
+margin-top:10px;
+background-color:#dad9d7;}
+
+/*////////// END OF PAVLOS OAF //////////*/
+
+
+.sidebar {
+float:left;
+width: 200px;
+min-height:400px;
+border: 0px solid #000000;
+margin-top:10px;
+}
+.content {
+float:right;
+width: 600px;
+min-height:400px;
+border: 0px solid #006600;
+padding:10px;
+margin-top:10px;
+float:right;
+}
+
+.content p{
+font-size: 1em;
+line-height: 19px;}
+.content li{
+font-size: 1em;
+line-height: 19px;}
+hr 
+{
+border-top:3px solid #CA0037;
+border-bottom:1px solid #CCCCCC;
+}
+.contentpaneopen {
+color:#000000;
+line-height:25px;
+}
+.contentheading {
+font-size:2em;
+color:#000000;
+}
+.content .componentheading{
+color:#000000;
+font-weight:normal;
+font-size:1.5em;
+margin-bottom:10px;
+}
+.sitemap .contentpaneopen  h2{
+display:none;}
+#input
+{
+background-color: #000000;
+}
+/*////////// SIDEBARS //////////*/
+.sidebarLT {
+width: 190px;
+padding-top:10px;
+margin-top:10px;
+border: 2px double  #E6E6E6;
+list-style:none;
+font-size:1em;
+font-weight:lighter;
+color: #000000;
+text-decoration:none;
+padding-left:10px;
+}
+.moduletable_menu ul.menu  {
+list-style:none;
+font-size:1em;
+color: #000000;
+font-weight:bold;
+text-decoration:none;
+padding:5px 0px 5px 10px;
+line-height: 25px;
+}
+.moduletable_menu ul.menu li {
+color: #000000;
+list-style:none;
+text-decoration:none;
+}
+.moduletable_menu ul.menu li a{
+list-style:none;
+text-decoration:none;
+color:#000000;
+display: block; /*symantiko gia to efe sto menu*/
+}
+.moduletable_menu ul.menu li a:hover{
+background-image: url("../images/box.jpg");
+list-style:none;
+font-size:1em;
+color: white;
+text-decoration:none;
+line-height: 25px; 
+}
+.moduletable_menu ul.menu li a.current{ /*symantiko gia to efe sto menu*/
+background:#900 url("../images/box.jpg") no-repeat 200px 60px;} 
+.moduletable_menu ul.menu li a.current:hover{ /*symantiko gia to efe sto menu*/
+background:#933 url("../images/box.jpg") no-repeat 200px 60px;}
+/*.moduletable_menu ul.menu #current {
+background-image: url(../images/box.jpg);
+list-style:none;
+font-size:14px;
+color: white;
+font-weight:bold;
+text-decoration:none;
+padding:5px 0px 5px 0px;
+line-height: 25px; 
+}
+*/
+.moduletable_menu li li {
+font-weight:lighter;
+list-style:none;
+margin-left:-20px;
+}
+.sidebarBT {
+width: 190px;
+padding-top:10px;
+margin-top:10px;
+border: 2px double  #E6E6E6;
+list-style:none;
+font-size:1em;
+font-weight:lighter;
+color: #000000;
+text-decoration:none;
+padding-left:10px;
+}
+/*////////// FOOTER //////////*/
+.footer {
+margin-top: 15px;
+padding-top: 0px;
+padding-bottom:0px;
+clear: both;
+width: 850px;
+background-color:#FFFFFF;
+border: 0px solid #000000;
+color:#999999;
+}
+.footer_copyright{
+color:#000000;
+text-align: center;
+padding-bottom:10px;
+padding-top:10px;
+font-size:0.7em;
+}
+.footer_accessibility{
+font-size:2em;
+text-align:center;
+}
+.olga_container {
+	width:600px;
+	display: table;
+	position:relative;
+}
+.olga_container h2 {
+font-size: 1em;
+	color: #780000;
+	font-family:Trebuchet MS,Geneva,sans-serif;
+}
+.table {
+	border:0px solid  #CCCCCC;
+	overflow:hidden;
+	font-size:1em;
+	font-weight:bold;
+}
+.row {
+	margin-top:5px;
+	border: 1px solid #CCCCCC;
+	overflow:hidden;
+}
+.row h3 {
+	margin-top:5px;
+	border: 1px solid #CCCCCC;
+	overflow:hidden;
+	background:#CCCCCC;
+}
+.olga_left {
+	float:left;
+	width:15%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.olga_left h3{
+	background:#CCCCCC;
+}
+.olga_middle h3{
+	background:#CCCCCC;
+}
+.olga_right h3{
+
+	background:#CCCCCC;
+}
+.olga_middle {
+	float:left;
+	width:45%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.olga_right {
+	float:left;
+	width:40%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.moduletable-search label{
+	display:none;
+}
+.olga_container_del {
+	width:600px;
+	display: table;
+	position:relative;
+	font-size:0.7em;
+}
+.olga_left_del h2{
+	background:#CCCCCC;
+}
+.olga_middle_del h2{
+	background:#CCCCCC;
+}
+.olga_right_del h2{
+	background:#CCCCCC;
+}
+.olga_left_del {
+	float:left;
+	width:55%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.olga_middle_del {
+	float:left;
+	width:25%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.olga_right_del {
+	float:right;
+	width:20%;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.com-form-login fieldset.input{
+background: #FFFFFF;
+}
+.conatctPC {
+float:left;
+width:50%;}
+.conatctTM{
+float:left;
+width:50%;}
+
+.content .content .contentheading .contentpagetitle{
+color:#000000;
+font-size:1em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;}
+.content .content .contentheading .contentpagetitle a{
+text-decoration:none;
+}
+.content .content .contentheading .contentpagetitle a:hover{
+text-decoration:underline;}
+.wrapper h1{
+border:none;
+}
+
+.contentpaneopen .contentheading { /*einai oi titloi sto user forum*/
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;}
+
+.content .contentheading .contentpagetitle {
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;}
+.content .contentheading .contentpagetitle a{
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;}
+.content .contentheading .contentpagetitle a:hover{
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;}
+
+.content .componentheading { /*O titlos tou sitemap*/
+color:#000000;
+font-size:1.5em;
+font-weight:normal;
+border-bottom:3px solid #CC0000;
+text-decoration:none;
+}
+
+.content .contentpane .componentheading {
+border:none;
+}
+
+.skipnav
+{
+	display: block !important;
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* FORM container */
+.pavlos_container{
+width:720px;
+margin-bottom:5px;
+}
+.pavlos_row {
+padding:5px;
+width:600px;
+margin-top:1px;
+}
+.pavlos_col1{
+float:left;
+width:75%;
+}
+.pavlos_col2{
+float:right;
+width:12%;
+}
+.pavlos_col3{
+float:right;
+width:12%;
+}
+.pavlos_clear{
+clear:both;
+}
