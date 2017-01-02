@@ -276,17 +276,21 @@ color:#000000;
 display: block; /*symantiko gia to efe sto menu*/
 }
 .moduletable_menu ul.menu li a:hover{
-background-image: url("../images/box.jpg");
-list-style:none;
-font-size:1em;
-color: white;
-text-decoration:none;
-line-height: 25px; 
+  background-image: url("../images/box.jpg");
+  list-style:none;
+  font-size:1em;
+  /*color: white;*/ color: blue;
+  text-decoration:none;
+  line-height: 25px; 
 }
-.moduletable_menu ul.menu li a.current{ /*symantiko gia to efe sto menu*/
-background:#900 url("../images/box.jpg") no-repeat 200px 60px;} 
-.moduletable_menu ul.menu li a.current:hover{ /*symantiko gia to efe sto menu*/
-background:#933 url("../images/box.jpg") no-repeat 200px 60px;}
+
+.moduletable_menu ul.menu li a.current { /*symantiko gia to efe sto menu*/
+  background:#900 url("../images/box.jpg") no-repeat 200px 60px;
+}
+
+.moduletable_menu ul.menu li a.current:hover { /*symantiko gia to efe sto menu*/
+  background:#933 url("../images/box.jpg") no-repeat 200px 60px;
+}
 /*.moduletable_menu ul.menu #current {
 background-image: url(../images/box.jpg);
 list-style:none;
@@ -472,12 +476,13 @@ font-size:1.5em;
 font-weight:normal;
 border-bottom:3px solid #CC0000;
 text-decoration:none;}
-.content .contentheading .contentpagetitle a:hover{
-color:#000000;
-font-size:1.5em;
-font-weight:normal;
-border-bottom:3px solid #CC0000;
-text-decoration:none;}
+.content .contentheading .contentpagetitle a:hover {
+  color:#000000;
+  font-size:1.5em;
+  font-weight:normal;
+  border-bottom:3px solid #CC0000;
+  text-decoration:none;
+}
 
 .content .componentheading { /*O titlos tou sitemap*/
 color:#000000;
