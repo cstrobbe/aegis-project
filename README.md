@@ -1,7 +1,7 @@
 # AEGIS Project Website (Static Version)
 
-This repository contains a static version of the AEGIS project website
-(which is currently a Joomla-based website available at [www.aegis-project.eu](http://www.aegis-project.eu/)).
+This repository contains a static version of part of the AEGIS project website
+(which was a Joomla-based website available at [www.aegis-project.eu](http://www.aegis-project.eu/)).
 
 ## Related Repositories
 
