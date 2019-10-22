@@ -9,6 +9,6 @@ This repository contains a static version of part of the AEGIS project website
 * [Requirements for the Open Accessibility Framework (OAF)](https://github.com/cstrobbe/OAF-requirements).
 * [Open Accessibility Framework (OAF) for Web Applications](https://github.com/cstrobbe/OAF-web).
 
-##Licence
+## Licence
 
-TBD
+TBD (Copyright AEGIS Project consortium).
