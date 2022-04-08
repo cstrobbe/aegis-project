@@ -1,5 +1,7 @@
 # AEGIS Project Website (Static Version)
 
+**This repo has moved to [GitLab](https://gitlab.com/cstrobbe/aegis-project).**
+
 This repository contains a static version of part of the AEGIS project website
 (which was a Joomla-based website available at [www.aegis-project.eu](http://www.aegis-project.eu/)).
 
